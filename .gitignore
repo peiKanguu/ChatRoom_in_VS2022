@@ -1,0 +1,68 @@
+*.vsidx
+*.suo
+*.db
+*.ipch
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.recipe
+*.ilk
+*.tlog
+*.lastbuildstate
+
+# 忽略所有二进制文件
+*.o
+*.a
+*.so
+*.exe
+
+# 忽略所有编译器生成的中间文件
+*.obj
+*.dll
+*.pdb
+*.idb
+*.class
+
+# 忽略临时文件
+*.tmp
+*.log
+*.pid
+*.lock
+
+# 忽略系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器和IDE生成的文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略Python虚拟环境文件
+venv/
+env/
+
+# 忽略C++编译输出目录
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# 忽略node.js依赖目录
+node_modules/
+
+# 忽略环境变量文件
+.env
+
+# 忽略特定文件或目录
+secret_config.yaml
+/private/
+
+# 忽略所有文件夹中的log文件
+**/logs/
+
+# 忽略所有文件夹中的临时文件
+**/tmp/
+
+.vscode/
